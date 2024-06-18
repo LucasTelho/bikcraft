@@ -2,12 +2,16 @@
   background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
 }
 
+#bicicletas .titulo {
+  background: none;
+}
 .bicicletas {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
+  background: url("../../img/dec/bottom-left.svg") no-repeat top 40px right 0;
 }
 
 .bicicletas-imagem {
@@ -62,10 +66,6 @@
   display: flex;
   align-items: center;
 }
-
-/* .bicicletas li + li {
-  margin-top: 16px;
-} */
 
 .bicicletas-conteudo img {
   width: 24px;

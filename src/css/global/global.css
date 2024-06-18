@@ -29,6 +29,7 @@ img {
   max-width: 100%;
   display: block;
   border-radius: 4px;
+  height: auto;
 }
 
 [src$=".jpg"] {
